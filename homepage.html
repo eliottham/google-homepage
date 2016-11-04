@@ -3,15 +3,19 @@
 	<head>
 		<link rel="shortcut icon" href="favicon.ico"/>
 		<title>Google</title>
-
+		<link rel="stylesheet" type ="text/css" href="homepageStyles.css"/>
 	</head>
 
 	<body>
-		<div id="navBar">
-			<ul>
-				<li>Gmail</li>
-				<li>Images</li>
-				<li>
+		<ul class="navBar">
+			<li>
+				<a href="https://gmail.com">Gmail</a>
+			</li>
+			<li>
+				<a href="https://www.google.com/imghp?hl=en&ei=1jscWKSsJ5OsjwPMnqeYCw&ved=0EKouCAIoAQ">Images</a>
+			</li>
+			<li>
+				<a href="https://gsuite.google.com/">
 					<table id="appsButton">
 						<tbody>
 							<tr>
@@ -31,38 +35,23 @@
 							</tr>
 						</tbody>
 					</table>
-				</li>
-				<li>
-					<form>
-						<input type="submit" value="Sign in">
-					</form>
-				</li>
-			</ul>
-		</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/" id="signin">Sign in</a>
+			</li>
+		</ul>
 
-		<div id="logo">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/272px-Google_2015_logo.svg.png" alt="Google logo"/>
-		</div>
+		<img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/272px-Google_2015_logo.svg.png" alt="Google logo"/>
 
-		<br>
-		<div id="search">
+		<div class="centerPage">
 			<form>
-				<input type="text">
+				<input id="searchBar" type="text">
+				<br>
+				<input id="gSearch" type="submit" value="Google Search">
+				<input id="lucky" type="submit" value="I'm Feeling Lucky">
 			</form>
 		</div>
 		
-		<br>
-		<div id="buttonSearch">
-			<form>
-				<input type="submit" value="Google Search">
-			</form>
-		</div>
-
-		<div id="buttonLucky">
-			<form>
-				<input type="submit" value="I'm Feeling Lucky">
-			</form>
-		</div>
-
 		</body>
 		</html>

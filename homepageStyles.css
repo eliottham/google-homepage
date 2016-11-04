@@ -1,0 +1,42 @@
+.navBar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.navBar li{
+	display: inline;
+	color: gray;
+}
+
+#appsButton{
+	position: relative;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-bottom: -15px;
+    margin-right: -5px;
+}
+
+#logo {
+	display: block;
+    margin: auto;
+    position: relative;
+}
+.centerPage{
+	display:block;
+	text-align:center;
+}
+#searchBar{
+	width: 30%;
+	border: 10px, grey;
+	height: 35px;
+}
+
+
+}
+.centerPage{
+	list-style-type: none;
+	display: inline;
+}
+
