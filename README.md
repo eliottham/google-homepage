@@ -1,0 +1,1 @@
+The project is for practicing the basics of HTML and CSS to try and mimic the layout and design of the Google homepage. 
